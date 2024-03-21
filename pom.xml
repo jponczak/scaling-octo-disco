@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.frontbackend.thymeleaf</groupId>
+    <artifactId>thymeleaf</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>first-thymeleaf-application</module>
+        <module>thymeleaf-iteration</module>
+        <module>thymeleaf-lazy-retrieval</module>
+        <module>thymeleaf-conditionals</module>
+        <module>thymeleaf-if-else</module>
+        <module>thymeleaf-data-attributes</module>
+        <module>thymeleaf-utility-lists</module>
+        <module>thymeleaf-utility-uris</module>
+        <module>thymeleaf-fragments</module>
+        <module>thymeleaf-forms</module>
+        <module>thymeleaf-map-iteration</module>
+        <module>thymeleaf-enums</module>
+        <module>thymeleaf-environment-parameters</module>
+        <module>thymeleaf-bootstrap-input-date</module>
+        <module>thymeleaf-bootstrap-radio-button</module>
+        <module>thymeleaf-bootstrap-select-option</module>
+        <module>thymeleaf-bootstrap-autocomplete-input</module>
+        <module>thymeleaf-bootstrap-datatable</module>
+        <module>thymeleaf-bootstrap-upload-file</module>
+        <module>thymeleaf-bootstrap-price-range-slider</module>
+        <module>thymeleaf-bootstrap-slider</module>
+        <module>thymeleaf-bootstrap-timepicker</module>
+        <module>thymeleaf-bootstrap-tabs</module>
+        <module>thymeleaf-bootstrap-input-password</module>
+        <module>thymeleaf-bootstrap-input-mask</module>
+        <module>thymeleaf-bootstrap-checkbox-tree</module>
+        <module>thymeleaf-bootstrap-toggle</module>
+        <module>thymeleaf-bootstrap-dropzone</module>
+        <module>thymeleaf-bootstrap-rating-stars</module>
+        <module>thymeleaf-bootstrap-code-editor</module>
+        <module>thymeleaf-bootstrap-countdown</module>
+        <module>thymeleaf-bootstrap-input-spinner</module>
+        <module>thymeleaf-bootstrap-telephone-input</module>
+        <module>thymeleaf-bootstrap-color-picker</module>
+        <module>thymeleaf-bootstrap-country-picker</module>
+        <module>thymeleaf-bootstrap-date-range-picker</module>
+        <module>thymeleaf-bootstrap-timezone-picker</module>
+        <module>thymeleaf-bootstrap-language-picker</module>
+        <module>thymeleaf-bootstrap-datetime-picker</module>
+        <module>thymeleaf-bootstrap-rich-text-editor</module>
+        <module>thymeleaf-bootstrap-toast</module>
+        <module>thymeleaf-bootstrap-dual-listbox</module>
+        <module>thymeleaf-bootstrap-switch</module>
+        <module>thymeleaf-extras-java8time</module>
+        <module>thymeleaf-bootstrap-input-email</module>
+        <module>thymeleaf-bootstrap-input-number</module>
+        <module>thymeleaf-bootstrap-input-tel</module>
+        <module>thymeleaf-bootstrap-markdown-editor</module>
+        <module>thymeleaf-custom-dialect</module>
+        <module>thymeleaf-bootstrap-date-formatting</module>
+        <module>thymeleaf-bootstrap-pagination</module>
+        <module>thymeleaf-bootstrap-modal</module>
+        <module>thymeleaf-bootstrap-treetable</module>
+        <module>thymeleaf-bootstrap-table</module>
+        <module>thymeleaf-bootstrap-wizard</module>
+        <module>thymeleaf-hidden-input</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+</project>
