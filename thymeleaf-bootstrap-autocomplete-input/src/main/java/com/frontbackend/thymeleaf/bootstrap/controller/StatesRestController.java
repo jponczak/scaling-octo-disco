@@ -19,27 +19,27 @@ public class StatesRestController {
 
     @GetMapping
     public List<StateItem> stateItems(@RequestParam(value = "q", required = false) String query) {
-        if (StringUtils.isEmpty(query)) {
+        if (StringUtils.hasLength(query)) {
             return Arrays.stream(State.values())
-                         .limit(15)
-                         .map(this::mapToStateItem)
-                         .collect(Collectors.toList());
+                    .limit(15)
+                    .map(this::mapToStateItem)
+                    .collect(Collectors.toList());
         }
 
         return Arrays.stream(State.values())
-                     .filter(state -> state.getLabel()
-                                           .toLowerCase()
-                                           .contains(query))
-                     .limit(15)
-                     .map(this::mapToStateItem)
-                     .collect(Collectors.toList());
+                .filter(state -> state.getLabel()
+                        .toLowerCase()
+                        .contains(query))
+                .limit(15)
+                .map(this::mapToStateItem)
+                .collect(Collectors.toList());
     }
 
     private StateItem mapToStateItem(State state) {
         return StateItem.builder()
-                        .id(state)
-                        .text(state.getLabel())
-                        .slug(state.name())
-                        .build();
+                .id(state)
+                .text(state.getLabel())
+                .slug(state.name())
+                .build();
     }
 }

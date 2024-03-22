@@ -1,6 +1,5 @@
 package com.frontbackend.thymeleaf.bootstrap.posts.control.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -16,7 +15,6 @@ public class PostService {
 
     private final PostDAO postDAO;
 
-    @Autowired
     public PostService(PostDAO postDAO) {
         this.postDAO = postDAO;
     }

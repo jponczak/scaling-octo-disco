@@ -1,7 +1,6 @@
 package com.frontbackend.thymeleaf.bootstrap.controller;
 
 import com.frontbackend.thymeleaf.bootstrap.model.paging.PageArray;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,7 +17,6 @@ public class EmployeeRestController {
 
     private final EmployeeService employeeService;
 
-    @Autowired
     public EmployeeRestController(EmployeeService employeeService) {
         this.employeeService = employeeService;
     }
